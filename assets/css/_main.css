@@ -618,13 +618,12 @@
     height: 32rem;
     width: 100%;
     padding: 0 8rem;
-    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-radius: 16px;
     border: 2px solid var(--color-border);
-    background: var(--color-linear-2)
+    background: var(--color-linear-1)
 }
 
 .contact .card .contact-background {
