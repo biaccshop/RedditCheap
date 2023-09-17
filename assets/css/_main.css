@@ -623,7 +623,7 @@
     justify-content: space-between;
     border-radius: 16px;
     border: 2px solid var(--color-border);
-    background: var(--color-linear-1)
+    background: var(--color-linear-2)
 }
 
 .contact .card .contact-background {
