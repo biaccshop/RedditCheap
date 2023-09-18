@@ -84,8 +84,8 @@ img {
     --font-family-1: 'Lato', sans-serif;
     --font-family-2: 'Montserrat', sans-serif;
     /* FeedbacksSlider Settings */
-    --slide-card-count: 43;
-    --slide-scroll-duration: 129s;
+    --slide-card-count: 50;
+    --slide-scroll-duration: 150s;
     --slide-height: 16rem;
     --slide-card-height: 16rem;
     --slide-width: 45rem;
