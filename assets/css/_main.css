@@ -138,9 +138,8 @@
     width: 45rem;
     height: auto;
     animation: FloatingHeroImage 3s ease-in-out infinite;
+    -webkit-animation: FloatingHeroImage 3s ease-in-out infinite;
 }
-
-
 
 /* As Seen On section */
 .as-seen-on {
@@ -332,6 +331,7 @@
     width: 400px;
     height: auto;
     animation: FloatingAboutUsImage 3s ease-in-out infinite;
+    -webkit-animation: FloatingAboutUsImage 3s ease-in-out infinite;
 }
 
 

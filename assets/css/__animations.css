@@ -35,29 +35,29 @@
 
 @keyframes FloatingHeroImage {
     0% {
-        transform: translateY(-2.5rem);
+        transform: translateY(-2.5rem) perspective(600px) rotateY(0deg) scale(.99) rotateX(5deg);
     }
 
     50% {
-        transform: translateY(2.5rem);
+        transform: translateY(2.5rem) perspective(600px) rotateY(-20deg) scale(.99) rotateX(5deg);
     }
 
     100% {
-        transform: translateY(-2.5rem);
+        transform: translateY(-2.5rem) perspective(600px) rotateY(0deg) scale(.99) rotateX(5deg);
     }
 }
 
 @keyframes FloatingAboutUsImage {
     0% {
-        transform: translateY(-2.5rem);
+        transform: translateY(-2.5rem) perspective(600px) rotateY(0deg) scale(.99) rotateX(5deg);
     }
 
     50% {
-        transform: translateY(0);
+        transform: translateY(0) perspective(600px) rotateY(20deg) scale(.99) rotateX(5deg);
     }
 
     100% {
-        transform: translateY(-2.5rem);
+        transform: translateY(-2.5rem) perspective(600px) rotateY(0deg) scale(.99) rotateX(5deg);
     }
 }
 
