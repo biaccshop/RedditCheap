@@ -4,19 +4,14 @@
 @import './__utilities.css';
 @import './__buttons-icons.css';
 @import './__animations.css';
-@import './__modal.css';
 @import './__announcement.css';
 @import './_header.css';
 @import './_main.css';
 @import './_footer.css';
-@import './_404.css';
-@import './_faq.css';
-@import './_portfolio.css';
 @import './_tos.css';
-@import './_privacypolicy.css';
 
 /* Fonts - Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;700;900&family=Urbanist:wght@400;700;900&display=swap');
 
 /* Icons - Font Awesome */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css');

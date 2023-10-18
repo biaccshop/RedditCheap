@@ -1,16 +1,8 @@
 {
   "rewrites": [
     { "source": "/home", "destination": "/index.html" },
-    { "source": "/portfolio", "destination": "/portfolio.html" },
-    { "source": "/works", "destination": "/portfolio.html" },
-    { "source": "/faq", "destination": "/faq.html" },
-    { "source": "/faqs", "destination": "/faq.html" },
-    { "source": "/rules", "destination": "/tos.html" },
+    { "source": "/(.*)", "destination": "/index.html" },
     { "source": "/terms-of-service", "destination": "/tos.html" },
-    { "source": "/terms", "destination": "/tos.html" },
-    { "source": "/privacy-policy", "destination": "/privacypolicy.html" },
-    { "source": "/privacypolicy", "destination": "/privacypolicy.html" },
-    { "source": "/privacy", "destination": "/privacypolicy.html" },
-    { "source": "/(.*)", "destination": "/404.html" }
+    { "source": "/terms", "destination": "/tos.html" }
   ]
 }

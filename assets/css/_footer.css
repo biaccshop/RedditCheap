@@ -2,22 +2,22 @@
 .footer {
 	height: auto;
 	width: 100%;
-	background-color: var(--color-btn-dark);
-	border-bottom: 0.3rem solid var(--color-btn-dark);
+	background-color: var(--color-dark);
+	
 }
 
 .footer-navigation {
 	height: auto;
 	width: 100%;
-	padding: 5rem 0;
+	padding: 5rem 0 2rem 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	border-bottom: 1px solid var(--color-border);
+	border-top: 1px solid var(--color-border);
 }
 
 .footer-navigation .item-title {
-	font-size: 1.7rem;
+	font-size: 1.8rem;
 	line-height: 2;
 	color: var(--color-text-light);
 	font-weight: var(--font-weight-bold);
@@ -25,11 +25,11 @@
 }
 
 .footer-navigation a {
-	font-size: 1.6rem;
 	line-height: 2;
-	color: var(--color-text-dark);
-	font-weight: var(--font-weight-bold);
-	transition: 0.3s ease;
+	font-size: 1.6rem;
+    color: var(--color-text-dark);
+    font-weight: var(--font-weight-bold);
+    transition: 0.3s ease;
 }
 
 .footer-navigation a:hover {
@@ -70,6 +70,8 @@
 .footer-navigation .item-4 {
 	width: 25%;
 	height: 16.5rem;
+	gap: 1.5rem;
+	padding-right: 3rem;
 }
 
 
@@ -92,7 +94,7 @@
 
 .footer-copyright a {
 	font-size: 1.6rem;
-	color: var(--color-secondary);
+	color: var(--color-primary);
 	font-weight: var(--font-weight-normal);
 	text-align: left;
 	transition: 0.3s ease;
@@ -100,18 +102,6 @@
 
 .footer-copyright a:hover {
 	text-shadow: 0 0 8px var(--color-primary);
-}
-
-.footer-copyright .payment-methods {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.footer-copyright .payment-methods .method {
-	height: 2.6rem;
-	width: auto;
-	margin-left: 1rem;
 }
 
 /*  834px - 1068px - Laptop Footer */
@@ -143,16 +133,6 @@
 		font-size: 1.4rem;
 	}
 
-	.footer-navigation .item-1,
-	.footer-navigation .item-2,
-	.footer-navigation .item-3 {
-		width: 22%;
-	}
-
-	.footer-navigation .item-4 {
-		width: 36%;
-	}
-
 	/* Copyright Section */
 	.footer-copyright .copyright-text p {
 		font-size: 1.4rem;
@@ -161,10 +141,6 @@
 
 	.footer-copyright .copyright-text a {
 		font-size: 1.4rem;
-	}
-
-	.footer-copyright .payment-methods .method {
-		display: none;
 	}
 }
 
@@ -217,9 +193,5 @@
 
 	.footer-copyright .copyright-text a {
 		font-size: 1.4rem;
-	}
-
-	.footer-copyright .payment-methods .method {
-		display: none;
 	}
 }
