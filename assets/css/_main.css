@@ -334,12 +334,12 @@
     background: var(--color-btn-dark);
     z-index: 1;
     transition: 0.3s ease;
-    box-shadow: 0 0 5px var(--color-primary);
+    box-shadow: 0 0 10px var(--color-primary);
 }
 
 .reasons-content .card:hover {
     background-color: var(--color-btn-light);
-    box-shadow: 0 0 10px var(--color-primary);
+    box-shadow: 0 0 15px var(--color-primary);
 }
 
 
