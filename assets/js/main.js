@@ -48,6 +48,8 @@ ScrollReveal().reveal('.feedbacks .slider', { origin: 'right', distance: '0px', 
 ScrollReveal().reveal('.pricing .pricing-title', { origin: 'right', distance: '0px', delay: 200, duration: 2000 });
 ScrollReveal().reveal('.pricing .pricing-subtitle', { origin: 'right', distance: '0px', delay: 300, duration: 2500 });
 ScrollReveal().reveal('.pricing-content', { origin: 'right', distance: '0px', delay: 200, duration: 3500 });
+ScrollReveal().reveal('.payments .payments-title', { origin: 'right', distance: '0px', delay: 200, duration: 2000 });
+ScrollReveal().reveal('.payments .payments-methods', { origin: 'left', distance: '0px', delay: 400 });
 ScrollReveal().reveal('.faq .faq-title', { origin: 'right', distance: '0px', delay: 200, duration: 2000 });
 ScrollReveal().reveal('.faq-container', { origin: 'left', distance: '0px', delay: 400 });
 ScrollReveal().reveal('.contact', { origin: 'right', distance: '0px', delay: 300, duration: 2500 });

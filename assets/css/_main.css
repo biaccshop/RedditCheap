@@ -7,18 +7,21 @@
     left: 0;
     z-index: -20;
 }
+
 #eclipse-right1 {
     position: absolute;
     top: 550px;
     right: 0;
     z-index: -20;
 }
+
 #eclipse-left1 {
     position: absolute;
     top: 1250px;
     left: 0;
     z-index: -20;
 }
+
 #eclipse-right2 {
     position: absolute;
     top: 3850px;
@@ -78,7 +81,7 @@
 }
 
 .hero-content h2 span {
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-bold);
     background: var(--color-linear-1);
     -webkit-background-clip: text;
     color: transparent;
@@ -156,7 +159,7 @@
 }
 
 .whyus h2 span {
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-bold);
     background: var(--color-linear-1);
     -webkit-background-clip: text;
     color: transparent;
@@ -186,6 +189,7 @@
 #features {
     position: relative;
 }
+
 #eclipse-middle-1 {
     position: absolute;
     top: -35%;
@@ -193,6 +197,7 @@
     transform: translateX(-50%);
     z-index: -20;
 }
+
 #eclipse-middle-2 {
     position: absolute;
     top: -55%;
@@ -200,6 +205,7 @@
     transform: translateX(-50%);
     z-index: -20;
 }
+
 #eclipse-middle-3 {
     position: absolute;
     top: -55%;
@@ -207,6 +213,7 @@
     transform: translateX(-50%);
     z-index: -20;
 }
+
 #eclipse-middle-4 {
     position: absolute;
     top: -25%;
@@ -214,6 +221,7 @@
     transform: translateX(-50%);
     z-index: -20;
 }
+
 #eclipse-middle-5 {
     position: absolute;
     top: -15%;
@@ -249,12 +257,16 @@
 
 .features-content h2 {
     font-size: 4rem;
-    font-weight: var(--font-weight-bold);
     line-height: 1.2;
+    font-weight: var(--font-weight-bold);
+    background: var(--color-linear-3);
+    -webkit-background-clip: text;
+    color: transparent;
     margin-bottom: 4rem;
 }
 
 .features-content h2 span {
+    font-weight: var(--font-weight-bold);
     background: var(--color-linear-1);
     -webkit-background-clip: text;
     color: transparent;
@@ -274,7 +286,7 @@
     justify-content: center;
     background: var(--color-linear-2);
     min-height: 4rem;
-        min-width: 4rem;
+    min-width: 4rem;
     border-radius: 8px;
 }
 
@@ -306,7 +318,7 @@
 }
 
 .reasons h2 span {
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-bold);
     background: var(--color-linear-1);
     -webkit-background-clip: text;
     color: transparent;
@@ -366,7 +378,7 @@
     color: transparent;
     position: absolute;
     bottom: 0;
-    left: 2.5%;
+    right: 3%;
     opacity: 20%;
     z-index: -1;
 }
@@ -386,7 +398,7 @@
 
 .pricing-title h2 {
     font-size: 4rem;
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-bold);
     background: var(--color-linear-3);
     -webkit-background-clip: text;
     color: transparent;
@@ -396,14 +408,14 @@
 
 .pricing-title h3 {
     font-size: 3rem;
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-normal);
     color: var(--color-text-hover);
     text-align: center;
     margin-bottom: 5rem;
 }
 
 .pricing-title h3 span {
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-bold);
     background: var(--color-linear-1-2);
     -webkit-background-clip: text;
     color: transparent;
@@ -447,6 +459,7 @@
     background-color: var(--color-btn-dark);
     border-radius: 12px;
 }
+
 .pricing-box-golden h5 {
     color: var(--color-text-light);
     font-size: 3.2rem;
@@ -487,10 +500,12 @@
     justify-content: flex-start;
     gap: 0.5rem;
 }
+
 .golden:hover {
     box-shadow: 0 0 10px var(--color-primary);
     transition: opacity 0.3s, box-shadow 0.3s;
 }
+
 .golden::before {
     background: linear-gradient(to bottom, var(--color-primary), #151515, #151515);
     content: "";
@@ -503,6 +518,7 @@
     border-radius: 10px;
     box-shadow: 0 0 5px var(--color-primary);
 }
+
 .golden-image {
     position: absolute;
     top: -10%;
@@ -515,6 +531,7 @@
     box-shadow: 0 0 10px var(--color-text-hover);
     transition: opacity 0.3s, box-shadow 0.3s;
 }
+
 .silver::before {
     background: linear-gradient(to bottom, var(--color-text-hover), #151515, #151515);
     content: "";
@@ -567,6 +584,45 @@
     gap: 0.5rem;
 }
 
+/* Payments section */
+.payments {
+    padding: 0rem 0 5rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.payments .payments-methods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.payments h2 {
+    font-size: 4rem;
+    font-weight: var(--font-weight-bold);
+    background: var(--color-linear-3);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.payments h2 span {
+    font-weight: var(--font-weight-bold);
+    background: var(--color-linear-1);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.payments .coin {
+    height: 3.2rem;
+    width: auto;
+}
+
 /* Results section */
 .feedbacks {
     padding: 5rem 0;
@@ -582,7 +638,7 @@
 
 .feedbacks-title h2 {
     font-size: 4rem;
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-bold);
     background: var(--color-linear-3);
     -webkit-background-clip: text;
     color: transparent;
@@ -591,14 +647,14 @@
 
 .feedbacks-title h3 {
     font-size: 3rem;
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-normal);
     color: var(--color-text-hover);
     text-align: center;
     margin-bottom: 5rem;
 }
 
 .feedbacks-title h3 span {
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-bold);
     background: var(--color-linear-1-2);
     -webkit-background-clip: text;
     color: transparent;
@@ -734,6 +790,7 @@
 #faq {
     position: relative;
 }
+
 #eclipse-middle-6 {
     position: absolute;
     top: -15%;
@@ -741,6 +798,7 @@
     transform: translateX(-50%);
     z-index: -20;
 }
+
 #eclipse-middle-7 {
     position: absolute;
     top: -35%;
@@ -748,6 +806,7 @@
     transform: translateX(-50%);
     z-index: -20;
 }
+
 #eclipse-middle-8 {
     position: absolute;
     top: -35%;
@@ -755,6 +814,7 @@
     transform: translateX(-50%);
     z-index: -20;
 }
+
 #eclipse-middle-9 {
     position: absolute;
     top: -5%;
@@ -762,6 +822,7 @@
     transform: translateX(-50%);
     z-index: -20;
 }
+
 #eclipse-middle-10 {
     position: absolute;
     top: 5%;
@@ -794,7 +855,7 @@
 }
 
 .faq-content h2 span {
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-bold);
     background: var(--color-linear-1);
     -webkit-background-clip: text;
     color: transparent;
@@ -1040,7 +1101,7 @@
     .faq {
         padding: 5rem 0;
     }
-    
+
     .faq-container {
         width: 80%;
     }
@@ -1186,7 +1247,7 @@
         background-color: var(--color-btn-dark);
         border-radius: 12px;
     }
-    
+
     .pricing-box-golden .pricing-features {
         display: flex;
         flex-direction: column;
@@ -1208,6 +1269,9 @@
         transform: translateX(-50%);
         z-index: 2;
     }
+
+    /* Payments section */
+
 
     /* Results section */
     .feedbacks {
@@ -1253,9 +1317,11 @@
         height: auto;
         gap: 0.3rem;
     }
+
     .slide-card .review .title {
         font-size: 1.5rem;
     }
+
     .slide-card .review .description {
         font-size: 1.3rem;
     }
@@ -1263,15 +1329,19 @@
     .slide-card .user {
         height: auto;
     }
+
     .slide-card .user .left {
         align-items: center;
     }
+
     .slide-card .user .left .information {
         margin-left: 0.6rem;
     }
+
     .slide-card .user .left .information .name {
         font-size: 1.5rem;
     }
+
     .slide-card .user .left .information .badge {
         font-size: 1.3rem;
     }
@@ -1280,6 +1350,7 @@
         width: 3.6rem;
         margin-top: 0.6rem;
     }
+
     .reviewstar-icon {
         width: 1.1rem;
         font-size: 0.8rem;
@@ -1386,6 +1457,7 @@
     .whyus h2 {
         font-size: 3rem;
     }
+
     .whyus p {
         margin-top: 2rem;
         margin-bottom: 2.5rem;
@@ -1413,7 +1485,7 @@
     .features-content h2 {
         font-size: 3rem;
     }
-    
+
     .features-content .feature p {
         font-size: 1.6rem;
     }
@@ -1440,7 +1512,7 @@
     .reasons-content .card h5 {
         font-size: 2.4rem;
     }
-    
+
     .reasons-content .card p {
         font-size: 1.6rem;
     }
@@ -1453,7 +1525,7 @@
     .pricing-title h2 {
         font-size: 3rem;
     }
-    
+
     .pricing-title h3 {
         font-size: 2.4rem;
         margin-bottom: 4rem;
@@ -1478,7 +1550,7 @@
         background-color: var(--color-btn-dark);
         border-radius: 12px;
     }
-    
+
     .pricing-box-golden .pricing-features {
         display: flex;
         flex-direction: column;
@@ -1499,6 +1571,24 @@
         left: 50%;
         transform: translateX(-50%);
         z-index: 2;
+    }
+
+    /* Payments section */
+    .payments {
+        padding: 0rem 0 2.5rem 0;
+        gap: 1rem;;
+    }
+
+    .payments .payments-methods {
+        gap: 1rem;
+    }
+
+    .payments h2 {
+        font-size: 3rem;
+    }
+
+    .payments .coin {
+        height: 2.7rem;
     }
 
     /* Results section */
@@ -1551,9 +1641,11 @@
         height: auto;
         gap: 0.3rem;
     }
+
     .slide-card .review .title {
         font-size: 1.2rem;
     }
+
     .slide-card .review .description {
         font-size: 1rem;
     }
@@ -1561,15 +1653,19 @@
     .slide-card .user {
         height: auto;
     }
+
     .slide-card .user .left {
         align-items: center;
     }
+
     .slide-card .user .left .information {
         margin-left: 0.4rem;
     }
+
     .slide-card .user .left .information .name {
         font-size: 1.2rem;
     }
+
     .slide-card .user .left .information .badge {
         font-size: 1rem;
     }
@@ -1578,6 +1674,7 @@
         width: 3.2rem;
         margin-top: 0.4rem;
     }
+
     .reviewstar-icon {
         width: 1.1rem;
         font-size: 0.8rem;
