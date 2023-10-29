@@ -1125,7 +1125,9 @@
     #eclipse-top,
     #eclipse-left1,
     #eclipse-right1,
-    #eclipse-right2 {
+    #eclipse-right2,
+    .features-visuals,
+    .faq-visuals {
         display: none;
     }
 
@@ -1270,9 +1272,6 @@
         z-index: 2;
     }
 
-    /* Payments section */
-
-
     /* Results section */
     .feedbacks {
         padding: 2.5rem 0;
@@ -1393,7 +1392,9 @@
     #eclipse-top,
     #eclipse-left1,
     #eclipse-right1,
-    #eclipse-right2 {
+    #eclipse-right2,
+    .features-visuals,
+    .faq-visuals {
         display: none;
     }
 
