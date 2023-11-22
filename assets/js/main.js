@@ -27,32 +27,10 @@ ScrollReveal({
 
 ScrollReveal().reveal('.hero-content', { origin: 'left', distance: '0px', delay: 200 });
 ScrollReveal().reveal('.hero-img', { origin: 'right', distance: '0px', delay: 200 });
-ScrollReveal().reveal('.whyus', { origin: 'right', distance: '0px', delay: 200, duration: 2000 });
-ScrollReveal().reveal('.features-img', { origin: 'right', distance: '0px', delay: 200, duration: 3500 });
-ScrollReveal().reveal('.features-content .feature-title', { origin: 'right', distance: '0px', delay: 200, duration: 2000 });
-ScrollReveal().reveal('.features-content .feature-1', { origin: 'right', distance: '50px', delay: 200 });
-ScrollReveal().reveal('.features-content .feature-2', { origin: 'right', distance: '50px', delay: 300 });
-ScrollReveal().reveal('.features-content .feature-3', { origin: 'right', distance: '50px', delay: 400 });
-ScrollReveal().reveal('.features-content .feature-4', { origin: 'right', distance: '50px', delay: 500 });
-ScrollReveal().reveal('.features-content .feature-5', { origin: 'right', distance: '50px', delay: 600 });
-ScrollReveal().reveal('.features-content .feature-6', { origin: 'right', distance: '50px', delay: 700 });
-ScrollReveal().reveal('.reasons .reasons-title', { origin: 'right', distance: '0px', delay: 200, duration: 2000 });
-ScrollReveal().reveal('.reasons-content .card-1', { origin: 'left', distance: '500px', delay: 400 });
-ScrollReveal().reveal('.reasons-content .card-2', { origin: 'left', distance: '500px', delay: 400 });
-ScrollReveal().reveal('.reasons-content .card-3', { origin: 'right', distance: '500px', delay: 400 });
-ScrollReveal().reveal('.reasons-content .card-4', { origin: 'right', distance: '500px', delay: 400 });
-ScrollReveal().reveal('.results .reasons-title', { origin: 'right', distance: '0px', delay: 200, duration: 2000 });
-ScrollReveal().reveal('.feedbacks .feedbacks-title', { origin: 'right', distance: '0px', delay: 200, duration: 2000 });
-ScrollReveal().reveal('.feedbacks .feedbacks-subtitle', { origin: 'right', distance: '0px', delay: 300, duration: 2500 });
-ScrollReveal().reveal('.feedbacks .slider', { origin: 'right', distance: '0px', delay: 200, duration: 2500 });
-ScrollReveal().reveal('.pricing .pricing-title', { origin: 'right', distance: '0px', delay: 200, duration: 2000 });
-ScrollReveal().reveal('.pricing .pricing-subtitle', { origin: 'right', distance: '0px', delay: 300, duration: 2500 });
-ScrollReveal().reveal('.pricing-content', { origin: 'right', distance: '0px', delay: 200, duration: 3500 });
-ScrollReveal().reveal('.payments .payments-title', { origin: 'right', distance: '0px', delay: 200, duration: 2000 });
-ScrollReveal().reveal('.payments .payments-methods', { origin: 'left', distance: '0px', delay: 400 });
-ScrollReveal().reveal('.faq .faq-title', { origin: 'right', distance: '0px', delay: 200, duration: 2000 });
-ScrollReveal().reveal('.faq-container', { origin: 'left', distance: '0px', delay: 400 });
-ScrollReveal().reveal('.contact', { origin: 'right', distance: '0px', delay: 300, duration: 2500 });
+ScrollReveal().reveal('.contact', { origin: 'right', distance: '0px', delay: 200 });
+
+
+
 
 // Navbar anchor + hiding # in URL
 $('a[href^="#"]').on('click', function (event) {
@@ -86,44 +64,4 @@ $(document).ready(function () {
       menuOpen = false;
     }
   });
-});
-
-
-
-// FAQ section
-const faqQuestions = document.querySelectorAll(".faq-container .question");
-
-faqQuestions.forEach((faqQuestion) => {
-  faqQuestion.addEventListener("click", () => {
-    faqQuestions.forEach((otherQuestion) => {
-      if (otherQuestion !== faqQuestion && otherQuestion.classList.contains("active")) {
-        const otherAnswer = otherQuestion.nextElementSibling;
-        otherAnswer.classList.remove("active");
-        otherQuestion.classList.remove("active");
-      }
-    });
-
-    const answer = faqQuestion.nextElementSibling;
-    answer.classList.toggle("active");
-    faqQuestion.classList.toggle("active");
-  });
-});
-
-
-
-// Announcement
-const announcementClose = document.querySelector(".announcement-close");
-const announcementSection = document.querySelector("#announcement");
-
-announcementClose.addEventListener("click", () => {
-  announcementSection.classList.add("hidden");
-  sessionStorage.setItem("announcementHidden", "true");
-});
-
-// Checking of refresh
-window.addEventListener("load", () => {
-  const isAnnouncementHidden = sessionStorage.getItem("announcementHidden");
-  if (isAnnouncementHidden === "true") {
-    announcementSection.classList.add("hidden");
-  }
 });

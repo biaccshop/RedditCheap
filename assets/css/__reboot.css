@@ -60,19 +60,16 @@ img {
 /* Root Starting */
 :root {
     /* Colors */
-    --color-primary: #00e3ff;
-    --color-secondary: rgb(203, 203, 204);
+    --color-primary: rgb(16,215,240);
+    --color-secondary: rgb(17,101,199);
     --color-border: rgb(42, 45, 51);
-    
-    --color-dark: rgb(19,23,34);
+    --color-dark: rgb(24,21,27);
+    --color-header: rgba(0,0,0, 0.75);
     --color-btn-dark: rgb(26,31,45);
-    --color-btn-dark-header: rgba(26,31,45, 0.8);
     --color-btn-light: rgb(32,39,55);
-
     --color-text-dark: rgb(140, 141, 143);
     --color-text-hover: rgb(203, 203, 204);
     --color-text-light: rgb(252, 252, 252);
-    
     --color-linear-1: linear-gradient(to left, var(--color-primary), var(--color-secondary));
     --color-linear-1-2: linear-gradient(to right, var(--color-primary), var(--color-secondary));
     --color-linear-2: linear-gradient(199deg, var(--color-primary) -100%, var(--color-btn-dark) 100%, var(--color-primary) 50%);
@@ -84,19 +81,12 @@ img {
     /* Font families */
     --font-family-1: 'Urbanist', sans-serif;
     --font-family-2: 'Lato', sans-serif;
-    /* FeedbacksSlider Settings */
-    --slide-card-count: 4;
-    --slide-scroll-duration: 60s;
-    --slide-height: 26rem;
-    --slide-card-height: 26rem;
-    --slide-width: 52rem;
-    --slide-card-width: 52rem;
 }
 
 
 /* Scrollbar Starting */
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 4px;
 }
 
 ::-webkit-scrollbar-track {
